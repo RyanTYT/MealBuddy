@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Josefin Slab';
+    src: url('/Josefin_Slab') format('woff2');
+}
+
+@font-face {
+	font-family: "Josefin Slab";
+	src: url("/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf")
+		format("truetype");
+	font-weight: 100 1000;
+	font-stretch: 0% 200%;
+	font-style: normal;
+}
+
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
@@ -55,7 +69,6 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  font-weight: normal;
 }
 
 body {
