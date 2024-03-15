@@ -25,14 +25,14 @@ defineProps<{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-bottom: 0.5em;
+    padding-bottom: 2em;
 }
 
 .field_title > span {
     /* header of field: Username, Password, Email, ... */
     font-weight: 400;
     color: #fff;
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 0.055em;
 }
 
@@ -49,14 +49,14 @@ defineProps<{
     /* field input */
     display: flex;
     width: 100%;
-    font-size: 1.2em;
+    font-size: 1.25em;
     align-items: center;
     color: rgb(255, 255, 255, 0.6);
 }
 
 .field img {
     align-self: flex-end;
-    width: 3rem;
-    height: 3rem;
+    width: 2em;
+    height: 2em;
 }
 </style>

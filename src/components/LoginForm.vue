@@ -5,7 +5,7 @@ import LoginFormField from '@/components/login/LoginFormField.vue'
 <template>
     <div class="form">
         <div class="logo">
-            <img src="../../public/MealBuddy.png" alt="MealBuddy" />
+            <img src="/MealBuddy.png" alt="MealBuddy" />
         </div>
         <div class="login">
             <div class="fields">
@@ -66,7 +66,7 @@ import LoginFormField from '@/components/login/LoginFormField.vue'
 
 .fields {
     width: 100%;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
 }
 
 .logo {
@@ -94,14 +94,14 @@ import LoginFormField from '@/components/login/LoginFormField.vue'
 
 .submit > div > span {
     letter-spacing: 0.04em;
-    font-weight: 300;
-    font-size: 1.3em;
+    font-weight: 400;
+    font-size: 1.5em;
 }
 
 .signUp {
     width: 100%;
     font-weight: 300;
-    font-size: 1.2em;
+    font-size: 1.25em;
 }
 
 .blueClick {
